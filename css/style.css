@@ -1,0 +1,331 @@
+@charset "UTF-8";
+@font-face {
+  font-family: yeseva;
+  src: url("../fonts/yeseva-one/YesevaOne-Regular_v2.otf") format("truetype");
+}
+
+@font-face {
+  font-family: lato;
+  src: url("../fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: distortion;
+  src: url("../fonts/Distortion.otf") format("truetype");
+}
+
+@font-face {
+  font-family: lazer;
+  src: url("../fonts/lazer84.ttf") format("truetype");
+}
+
+/* CSS global */
+body {
+  scroll-behavior: smooth;
+}
+
+body h2 {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0;
+  font-family: lazer;
+}
+
+body h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  font-family: lazer;
+  color: #fff;
+}
+
+/* Header */
+#home {
+  background-image: url("../img/retroCar.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 950px;
+  padding: 50px 200px;
+  margin-bottom: -35px;
+}
+
+#home h1 {
+  color: #fff;
+  text-align: center;
+  font-family: lazer;
+  padding: 15px 15px;
+  text-shadow: -5px 5px #2c75ff;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+}
+
+#home .socialLink, #home .miniLogo {
+  padding: 0 15px;
+  color: #fff;
+}
+
+#home .socialLink:hover, #home .miniLogo:hover {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  border-bottom: none;
+}
+
+#home a:hover {
+  text-decoration: none;
+}
+
+#home p {
+  color: #fff;
+  font-size: 60px;
+  font-family: distortion;
+  margin: 10px -50px;
+}
+
+#home p:hover {
+  text-decoration: none;
+  color: #f00020;
+  padding-left: 70px;
+  text-shadow: -7px 7px #2c75ff;
+  -webkit-transition: 2.5s;
+  transition: 2.5s;
+}
+
+#home .mainLink {
+  margin-top: 150px;
+}
+
+/* Présentations */
+#about {
+  height: 1200px;
+  padding: 0 300px;
+  background: black;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+  z-index: 11;
+}
+
+#about h2 {
+  color: #f00020;
+  text-shadow: -5px 5px #2c75ff;
+}
+
+#about .logoEd {
+  margin: 50px 500px;
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+}
+
+#about p {
+  text-align: justify;
+  color: #fff;
+  font-size: 15px;
+  font-family: lato;
+  padding: 25px 50px;
+  font-weight: bold;
+  -webkit-transform: skewY(2deg);
+          transform: skewY(2deg);
+}
+
+#about .about2 {
+  background: #f00020;
+  border: solid 2px #fff;
+  border-radius: 2%;
+  padding: 50px 0;
+  margin: 50px 110px;
+  -webkit-box-shadow: 10px 10px #2c75ff;
+          box-shadow: 10px 10px #2c75ff;
+}
+
+/* Compétences */
+#skills {
+  height: 1650px;
+  padding: 20px 0px;
+  background-image: url("../img/retro1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -35px;
+}
+
+#skills h2 {
+  text-align: center;
+  color: #fff;
+  text-shadow: -5px 5px #f00020;
+  padding: 50px 0;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+}
+
+#skills .skillsText {
+  text-align: justify;
+  margin: 50px 150px;
+  padding: 20px 20px;
+  color: #fff;
+  color: 18px;
+  font-family: lato;
+  font-weight: bold;
+  background: #2c75ff;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px #f00020;
+          box-shadow: 5px 5px #f00020;
+}
+
+#skills .skillsImage {
+  position: relative;
+  margin: 50px 150px;
+}
+
+#skills .skills2Global {
+  padding: 0px -0px;
+}
+
+/* Réalisations global, le reste est sur style2*/
+#works {
+  height: 1200px;
+  padding: 0px 50px;
+  background-image: url("../img/fondWork.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+}
+
+#works h2 {
+  color: #2c75ff;
+  text-shadow: -5px 5px #f00020;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+}
+
+/* Contact */
+#contact {
+  height: 1550px;
+  background-image: url("../img/thankYou.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -35px;
+  /* Formulaire */
+  /* Inputs */
+  /* Commentaires en cas d'erreurs */
+  /* Boutton submit envoyer */
+  /* Message de validation */
+}
+
+#contact h2 {
+  color: #2c75ff;
+  text-shadow: -5px 5px #fff;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+}
+
+#contact #contact-form {
+  font-size: 20px;
+  background: none;
+  padding: 40px;
+  margin: 50px 50px;
+  border-radius: 10px;
+}
+
+#contact #contact-form .red {
+  color: #f00020;
+  font-family: lazer;
+  margin: 20px 0;
+}
+
+#contact #contact-form label {
+  color: #fff;
+  font-family: lazer;
+}
+
+#contact .form-control {
+  height: 50px;
+  border-left: solid 2px #2c75ff;
+  border-top: solid 2px #2c75ff;
+  background: #fff;
+  font-weight: bold;
+  font-family: lato;
+  margin: 10px 0;
+  color: #2c75ff;
+  -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+#contact .comments {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2c75ff;
+  text-shadow: 1px 1px #fff;
+  text-align: center;
+  margin: 10px 10px;
+  height: 25px;
+  font-family: lato;
+}
+
+#contact input[type=submit] {
+  margin: 40px auto 0px;
+  display: block;
+}
+
+#contact .button1 {
+  border: 1px solid #2c75ff;
+  background: #2c75ff;
+  color: #fff;
+  width: 100%;
+  padding: 18px;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease-in 0s;
+  transition: all 0.5s ease-in 0s;
+  font-family: lazer;
+}
+
+#contact .button1:hover {
+  background: #fff;
+  color: #2c75ff;
+}
+
+#contact .thank-you {
+  font-family: lato;
+  color: #2c75ff;
+  background: #fff;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  border: solid 2px #fff;
+}
+
+footer {
+  height: 150px;
+  background-color: #f00020;
+  padding: 25px 150px;
+  border-top: solid 3px #fff;
+}
+
+footer img {
+  margin: 0px 50px;
+}
+
+footer p {
+  color: white;
+  font-family: lazer;
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+footer a:hover {
+  text-decoration: none;
+  margin: 0 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=style.css.map */

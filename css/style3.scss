@@ -1,0 +1,107 @@
+@font-face {
+  font-family: yeseva;
+  src: url('../fonts/yeseva-one/YesevaOne-Regular_v2.otf') format('truetype');
+}
+@font-face {
+  font-family: lato;
+  src: url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: lazer;
+  src: url('../fonts/lazer84.ttf') format('truetype');
+}
+header{
+  background-image: url('../img/retroSun.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 50px 200px;
+  h1{
+    color: #fff;
+    text-align: center;
+    font-family: lazer;
+    padding: 15px 15px;
+    text-shadow:  -5px 5px #2c75ff;
+    transform: skewY(-2deg);
+  } 
+ .socialLink,.miniLogo{
+   padding: 0 15px;
+   color: #fff;
+   &:hover{
+     width: 40px;
+     height: 40px;
+     transition: 2s;
+     border-bottom: none;
+   }
+  } 
+  
+  h2{
+    text-align: center;
+    color: #2c75ff;
+    text-shadow:  -5px 5px #f00020;
+    font-size: 100px;
+    font-family: lazer;
+    margin: 100px 0;
+    transform: skewY(-2deg);
+  } 
+} 
+
+  #main{
+    height: 900px;
+    background: url('../img/retroPurple.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    .sous-titre{
+      font-size: 30px;
+      text-align: center;
+      margin: 50px 0;
+      font-family: lato;
+    }
+    p{
+      font-family: lato;
+      font-size: 20px;
+      text-align: justify;
+      color: #fff;
+      font-weight: bold;
+      }
+    .mockUp{
+      margin-bottom: 50px;
+      }
+      .techText{
+        font-family: lazer;
+        text-align: center;
+        margin:40px;
+        font-size: 40px;
+        transform: skewY(-2deg);
+        color: #f00020;
+        text-shadow: -2px 2px #2c75ff
+      }
+    .tech{
+      margin: 0 20px;
+      }
+  }
+    footer{
+      height: 150px;
+      background-color: #f00020;
+      padding: 25px 150px;
+      border-top: solid 3px #fff;
+      img{
+        margin: 0px 50px;
+      }
+      p{
+        color: white;
+        font-family: lazer; 
+        font-size: 20px;
+        margin: 25px 0;
+      }
+      a:hover{
+        text-decoration: none;
+        margin: 0 20px;
+        transition: 0.5s;
+      }
+    }

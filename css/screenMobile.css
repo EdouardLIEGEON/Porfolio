@@ -1,0 +1,24 @@
+@media screen and (max-width: 770px){
+    h2{
+        font-size:30px;
+    }
+    #home{
+      width: auto;
+      font-size: 50%;  
+    }
+    h1{
+        font-size: 30px;
+        margin:100px 0;
+    } 
+    #home p{
+        font-size: 30px;
+        margin: 10px -50px;
+        text-align: center;
+    }
+    #about{
+        width: auto;
+    }
+    #about2{
+        margin: 0 0;
+    }
+}
